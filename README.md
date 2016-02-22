@@ -5,7 +5,7 @@
 pactl load-module module-loopback
 ```
 
-## 2. Connecting Apple Keyboard
+## 2. Connecting Apple Keyboard & Trackpad
 ```
 sudo apt-get install bluez-compat
 
