@@ -1,11 +1,11 @@
-# My Notes
+# Ubuntu 14.04 Setup
 
-1. Enable Loopback playback from Line-In
+## 1. Enable Loopback playback from Line-In
 ```
 pactl load-module module-loopback
 ```
 
-2. Connecting Apple Keyboard
+## 2. Connecting Apple Keyboard
 ```
 sudo apt-get install bluez-compat
 
