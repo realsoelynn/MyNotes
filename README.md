@@ -1,3 +1,16 @@
+# iOS Development
+
+## 1. Lazy fix to try HTTP url request (Apple tighten the security to enforce HTTPS request)
+Add the following entry into the Info.plist
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+  <!--Include to allow all connections (DANGER)-->
+  <key>NSAllowsArbitraryLoads</key>
+      <true/>
+</dict>
+```
+
 # Ubuntu 14.04 Setup
 
 ## 1. Enable Loopback playback from Line-In
