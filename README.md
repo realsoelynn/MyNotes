@@ -11,6 +11,11 @@ Add the following entry into the Info.plist
 </dict>
 ```
 
+# OSX
+
+## 1. Making a bootable USB from ISO file
+http://borgstrom.ca/2010/10/14/os-x-bootable-usb.html
+
 # Ubuntu 14.04 Setup
 
 ## 1. Enable Loopback playback from Line-In
